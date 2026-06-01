@@ -2,15 +2,15 @@
 A study buddy widget made in Godot for my CCI graduation project. 
 
 # HOW TO USE
-Launch the widget when you want to focus on something on your computer. It'll study alongside you!
-Sometimes it'll get distracted. If you notice it getting distracted, click on it to remind it to get back to work.
-Everytime you remind it, you get a point, every 10 points you get a hat! 
+Launch the widget when you want to focus on something on your computer. It'll study alongside you!<br>
+Sometimes it'll get distracted. If you notice it getting distracted, click on it to remind it to get back to work.<br>
+Everytime you remind it, you get a point, every 10 points you get a hat!<br>
 If you work for long enough, maybe you can see them all!
 
 # WHY?
-To make a long story short... I have ADHD and focusing apps for non-ADHDers never work for me. I wanted to make a fun and original solution. 
-[An old study](https://www.sciencedirect.com/science/article/abs/pii/S1388245707002064?via%3Dihub) found that when testing memory recall in ADHD and non-ADHD students, playing a new, unheard sound improved the recall of the ADHDers.
-I wanted to take the idea that and using distractions to my advantage and use it as a focusing tool.
+To make a long story short... I have ADHD and focusing apps for non-ADHDers never work for me. I wanted to make a fun and original solution.<br>
+[An old study](https://www.sciencedirect.com/science/article/abs/pii/S1388245707002064?via%3Dihub) found that when testing memory recall in ADHD and non-ADHD students, playing a new, unheard sound improved the recall of the ADHDers.<br>
+I wanted to take the idea that and using distractions to my advantage and use it as a focusing tool.<br>
 And hey, it seems to work! 
 
 # TODO
@@ -18,8 +18,8 @@ And hey, it seems to work!
 * Make a toggle that lets the user see how many points they have?
 
 # NOTES
-Code was initially based off of spaghettiSyntax's Desktop Pet Godot tutorial: https://github.com/spaghettiSyntax/DesktopPet
-This probably won't help very much if you don't have ADHD or are on ADHD meds while using it. 
+Code was initially based off of spaghettiSyntax's Desktop Pet Godot tutorial: https://github.com/spaghettiSyntax/DesktopPet<br>
+This probably won't help very much if you don't have ADHD or are on ADHD meds while using it.<br>
 All art is drawn by me. The widget's name is Buddy! 
 
 # KNOWN BUGS/ISSUES
