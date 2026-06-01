@@ -14,8 +14,8 @@ I wanted to take the idea that and using distractions to my advantage and use it
 And hey, it seems to work! 
 
 # TODO
-> Let the user change the distraction intervals in software
-> Make a toggle that lets the user see how many points they have?
+* Let the user change the distraction intervals in software
+* Make a toggle that lets the user see how many points they have?
 
 # NOTES
 Code was initially based off of spaghettiSyntax's Desktop Pet Godot tutorial: https://github.com/spaghettiSyntax/DesktopPet
@@ -23,6 +23,6 @@ This probably won't help very much if you don't have ADHD or are on ADHD meds wh
 All art is drawn by me. The widget's name is Buddy! 
 
 # KNOWN BUGS/ISSUES
-> The Windows build has the window border on. This is *intentional*. I'd rather it didn't, but when it came to choosing between 100% borderless or movable and resizable, I chose the latter. I intend on trying to come up with a fix for this.
-> On the other side of things, you can't move the widget on Mac. I tried a couple code solutions but they were buggy at best. 
-> When running on Windows 10, the background of the widget may be black instead of transparent. This isn't an issue on W11 and I've never managed to replicate it. If you experience this issue, let me know.
+* The Windows build has the window border on. This is *intentional*. I'd rather it didn't, but when it came to choosing between 100% borderless or movable and resizable, I chose the latter. I intend on trying to come up with a fix for this.
+* On the other side of things, you can't move the widget on Mac. I tried a couple code solutions but they were buggy at best.
+* When running on Windows 10, the background of the widget may be black instead of transparent. This isn't an issue on W11 and I've never managed to replicate it. If you experience this issue, let me know.
