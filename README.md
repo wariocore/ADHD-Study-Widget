@@ -10,7 +10,7 @@ If you work for long enough, maybe you can see them all!
 # WHY?
 To make a long story short... I have ADHD and focusing apps for non-ADHDers never work for me. I wanted to make a fun and original solution.<br>
 [An old study](https://www.sciencedirect.com/science/article/abs/pii/S1388245707002064?via%3Dihub) found that when testing memory recall in ADHD and non-ADHD students, playing a new, unheard sound improved the recall of the ADHDers.<br>
-I wanted to take the idea that and using distractions to my advantage and use it as a focusing tool.<br>
+I wanted to take the idea of using distractions to my advantage and use it as a focusing tool.<br>
 And hey, it seems to work! 
 
 # TODO
@@ -18,6 +18,7 @@ And hey, it seems to work!
 * Make a toggle that lets the user see how many points they have?
 
 # NOTES
+Mac users will need to bypass Gatekeeper to run.
 Code was initially based off of spaghettiSyntax's Desktop Pet Godot tutorial: https://github.com/spaghettiSyntax/DesktopPet<br>
 This probably won't help very much if you don't have ADHD or are on ADHD meds while using it.<br>
 All art is drawn by me. The widget's name is Buddy! 
