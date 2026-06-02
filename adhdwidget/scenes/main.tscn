@@ -1,0 +1,81 @@
+[gd_scene format=3 uid="uid://crilb0yxmcfyv"]
+
+[ext_resource type="Script" uid="uid://01fx4s2pnd51" path="res://scripts/main.gd" id="1_15rkt"]
+[ext_resource type="Texture2D" uid="uid://mcacp1ydtbs4" path="res://sprites/IMG_5141.PNG" id="2_tbgi4"]
+[ext_resource type="Texture2D" uid="uid://da4ps3igoyia2" path="res://sprites/IMG_5142.PNG" id="3_tefeu"]
+[ext_resource type="Texture2D" uid="uid://bfdinmiu7oxmy" path="res://sprites/IMG_5143.PNG" id="4_o6xl0"]
+[ext_resource type="Texture2D" uid="uid://blxilw6h1ich1" path="res://sprites/IMG_5144.PNG" id="5_tipki"]
+[ext_resource type="Texture2D" uid="uid://diub12sdxfhgt" path="res://sprites/spritesheet.png" id="10_choun"]
+[ext_resource type="Texture2D" uid="uid://6nvmkovqhbw5" path="res://sprites/corner.png" id="11_ya4ey"]
+[ext_resource type="Texture2D" uid="uid://lobp1d5sjfso" path="res://sprites/spritesheetturn.png" id="12_eb6dy"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_tbgi4"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_tbgi4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_tefeu")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4_o6xl0")
+}],
+"loop": true,
+"name": &"look",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5_tipki")
+}],
+"loop": true,
+"name": &"shy",
+"speed": 5.0
+}]
+
+[sub_resource type="Animation" id="Animation_jbj1t"]
+resource_name = "hat1"
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_muem4"]
+_data = {
+&"hat1": SubResource("Animation_jbj1t")
+}
+
+[node name="main" type="Node2D" unique_id=642964499]
+position = Vector2(-31, 33)
+scale = Vector2(0.9, 0.9)
+script = ExtResource("1_15rkt")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=214815067]
+position = Vector2(315, 376)
+scale = Vector2(0.9, 0.9)
+sprite_frames = SubResource("SpriteFrames_tbgi4")
+animation = &"idle"
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=757834416]
+position = Vector2(315.55557, 317.77774)
+scale = Vector2(0.9, 0.9)
+texture = ExtResource("10_choun")
+hframes = 9
+frame = 8
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=531077350]
+libraries/ = SubResource("AnimationLibrary_muem4")
+
+[node name="Corner" type="Sprite2D" parent="." unique_id=1640546478]
+position = Vector2(189.08325, 138.7222)
+scale = Vector2(0.15063487, 0.17160377)
+texture = ExtResource("11_ya4ey")
+
+[node name="Sprite2D2" type="Sprite2D" parent="." unique_id=1914918312]
+position = Vector2(321.11115, 358.8889)
+scale = Vector2(0.86204743, 0.8620474)
+texture = ExtResource("12_eb6dy")
+hframes = 9
+frame = 8
