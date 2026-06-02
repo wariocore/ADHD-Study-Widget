@@ -18,7 +18,7 @@ And hey, it seems to work!
 * Make a toggle that lets the user see how many points they have?
 
 # NOTES
-*Mac users will need to bypass Gatekeeper to run.*
+*Mac users will need to bypass Gatekeeper to run.*<br>
 Code was initially based off of spaghettiSyntax's Desktop Pet Godot tutorial: https://github.com/spaghettiSyntax/DesktopPet<br>
 This probably won't help very much if you don't have ADHD or are on ADHD meds while using it.<br>
 If you're running straight from the source code, you might have to turn off "embed on next run" when previewing.<br>
